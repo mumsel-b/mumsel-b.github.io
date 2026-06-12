@@ -1,0 +1,19 @@
+paintings:
+  - title: "Morning Chores"
+    thumb: "morning_chores.jpg"
+    full: "morning_chores.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '12" X 16"'
+    collection: "Private Collection"
+  - title: "Country School"
+    thumb: "country_school.jpg"
+    full: "country_school.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '12" X 16"'
+    collection: "Private Collection"
+  - title: "Country Church"
+    thumb: "country_church.jpg"
+    full: "country_church.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '12" X 16"'
+    collection: "Private Collection"

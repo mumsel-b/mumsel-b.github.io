@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="page-container">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ if .Params.dataKey }}
+  {{/* This is an individual category page */}}
+  {{ $data := index hugo.Data.paintings .Params.dataKey }}
+  {{ if $data }}
+  <div class="gallery-nav">
+    <a href="/paintings/" class="btn-back">&larr; All Categories</a>
+  </div>
+  <div class="painting-grid painting-grid--large">
+    {{ range $data.paintings }}
+    <div class="painting-card"
+         data-full="/images/art/{{ .full }}"
+         data-title="{{ .title }}"
+         data-meta="{{ with .medium }}{{ . }}{{ end }}{{ with .dimensions }} &middot; {{ . }}{{ end }}"
+         data-collection="{{ .collection }}">
+      <div class="painting-thumb">
+        <img src="/images/art/thumbs/{{ .thumb }}" alt="{{ .title }}" loading="lazy">
+        <div class="painting-overlay">
+          <span class="overlay-zoom">&#x2315;</span>
+        </div>
+      </div>
+      <div class="painting-info">
+        <h3>{{ .title }}</h3>
+        {{ with .medium }}<p class="painting-medium">{{ . }}{{ with .dimensions }} &middot; {{ . }}{{ end }}</p>{{ end }}
+        {{ if and .dimensions (not .medium) }}<p class="painting-medium">{{ .dimensions }}</p>{{ end }}
+        {{ with .collection }}<p class="painting-collection">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ else }}
+  {{/* This is the main paintings index — show all categories */}}
+  <div class="page-content prose">{{ .Content }}</div>
+  <div class="categories-grid">
+    {{ range .Pages.ByWeight }}
+    {{ $slug := .File.BaseFileName }}
+    {{ $data := index hugo.Data.paintings $slug }}
+    <a href="{{ .RelPermalink }}" class="category-card">
+      {{ if $data }}
+      {{ $first := index $data.paintings 0 }}
+      {{ if $first }}
+      <div class="category-thumb">
+        <img src="/images/art/thumbs/{{ $first.thumb }}" alt="{{ .Title }}" loading="lazy">
+      </div>
+      {{ end }}
+      {{ end }}
+      <div class="category-info">
+        <h2>{{ .Title }}</h2>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        {{ if $data }}<span class="painting-count">{{ len $data.paintings }} paintings</span>{{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

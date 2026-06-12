@@ -1,0 +1,19 @@
+paintings:
+  - title: "Twilight on the Prairie"
+    thumb: "self_portrait_08.jpg"
+    full: "self_portrait_08.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '16" X 20"'
+    collection: "Private Collection"
+  - title: "Remembering Stokely"
+    thumb: "anne_marit.jpg"
+    full: "anne_marit.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '16" X 20"'
+    collection: "Private Collection"
+  - title: "At M.D. Anderson"
+    thumb: "portrait-2.jpg"
+    full: "thumbs/portrait-2.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '16" X 20"'
+    collection: "Private Collection"

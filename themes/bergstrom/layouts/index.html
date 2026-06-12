@@ -1,0 +1,110 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-slideshow" id="heroSlideshow" aria-label="Featured paintings">
+    {{ $artDir := "/images/art/" }}
+    {{ $heroImages := slice
+      "a_stroll_by_enchanted_waters.jpg"
+      "dahlias-daisies.jpg"
+      "flower_cart.jpg"
+      "home_once_again.jpg"
+      "look_to_the_rainbow.jpg"
+      "country_church.jpg"
+      "hills.jpg"
+      "all_aboard.jpg"
+    }}
+    {{ range $i, $img := $heroImages }}
+    <div class="hero-slide{{ if eq $i 0 }} active{{ end }}" aria-hidden="{{ if eq $i 0 }}false{{ else }}true{{ end }}">
+      <img src="{{ $artDir }}{{ $img }}" alt="Painting by Anne-Marit Bergstrom" loading="{{ if eq $i 0 }}eager{{ else }}lazy{{ end }}">
+    </div>
+    {{ end }}
+    <div class="hero-controls">
+      {{ range $i, $img := $heroImages }}
+      <button class="hero-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Show slide {{ add $i 1 }}"></button>
+      {{ end }}
+    </div>
+  </div>
+  <div class="hero-text">
+    <h1>Anne-Marit Bergstrom</h1>
+    <p class="hero-tagline">Dakota Drawings</p>
+    <a href="/paintings/" class="btn btn-primary">View the Paintings</a>
+  </div>
+</section>
+
+<section class="home-intro">
+  <div class="page-container">
+    <div class="intro-content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+<section class="featured-gallery">
+  <div class="page-container">
+    <h2>A Selection of Works</h2>
+    {{ $categories := hugo.Data.painting_categories.categories }}
+    {{ $reminiscing := index hugo.Data.paintings "reminiscing" }}
+    {{ $floral := index hugo.Data.paintings "floral" }}
+    {{ $christmas := index hugo.Data.paintings "christmas" }}
+    {{ $featured := slice }}
+    {{ range first 4 $reminiscing.paintings }}{{ $featured = $featured | append . }}{{ end }}
+    {{ range first 2 $floral.paintings }}{{ $featured = $featured | append . }}{{ end }}
+    {{ range first 2 $christmas.paintings }}{{ $featured = $featured | append . }}{{ end }}
+    <div class="painting-grid">
+      {{ range $featured }}
+      <div class="painting-card"
+           data-full="/images/art/{{ .full }}"
+           data-title="{{ .title }}"
+           data-meta="{{ with .medium }}{{ . }}{{ end }}{{ with .dimensions }} · {{ . }}{{ end }}"
+           data-collection="{{ .collection }}">
+        <div class="painting-thumb">
+          <img src="/images/art/thumbs/{{ .thumb }}" alt="{{ .title }}" loading="lazy">
+          <div class="painting-overlay">
+            <span class="overlay-zoom">&#x2315;</span>
+          </div>
+        </div>
+        <div class="painting-info">
+          <h3>{{ .title }}</h3>
+          {{ with .collection }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="gallery-cta">
+      <a href="/paintings/" class="btn btn-secondary">Browse All Paintings by Category</a>
+    </div>
+  </div>
+</section>
+
+<section class="permanent-display">
+  <div class="page-container">
+    <h2>Permanent Collections</h2>
+    <p class="section-intro">Paintings by Anne-Marit can be found in private and corporate collections throughout the United States, as well as in Europe, Scandinavia, and Asia.</p>
+    <div class="collections-grid">
+      <div class="collection-item">
+        <h3>Lake Region State College</h3>
+        <p>Chautauqua Gallery<br>Devils Lake, ND</p>
+      </div>
+      <div class="collection-item">
+        <h3><a href="/history/">Devils Lake Area Chamber of Commerce</a></h3>
+        <p>Devils Lake, ND</p>
+      </div>
+      <div class="collection-item">
+        <h3>North Dakota State University</h3>
+        <p>Fargo, ND</p>
+      </div>
+      <div class="collection-item">
+        <h3>North Dakota State College of Science</h3>
+        <p>Wahpeton, ND</p>
+      </div>
+      <div class="collection-item">
+        <h3>Holiday Inn Express</h3>
+        <p>Saint Croix Falls, Wisconsin</p>
+      </div>
+      <div class="collection-item">
+        <h3>Gallery 135, Franklin Place</h3>
+        <p>Saint Croix Falls, Wisconsin</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

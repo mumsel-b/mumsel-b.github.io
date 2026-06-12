@@ -1,0 +1,48 @@
+paintings:
+  - title: "Mother Goose"
+    thumb: "mother_goose.jpg"
+    full: "thumbs/mother_goose.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" X 30"'
+    collection: "Private Collection"
+  - title: "Ce Que C'est Pratique"
+    thumb: "ce_que_cest_prcictique.jpg"
+    full: "ce_que_cest_prcictique.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '12" X 15"'
+    collection: "Private Collection"
+  - title: "Hey Diddle Diddle"
+    thumb: "hey_diddle_diddle-.jpg"
+    full: "hey_diddle_diddle-.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '18" X 14"'
+    collection: "Private Collection"
+  - title: "Leapin' Leprechauns"
+    thumb: "rainbow_elves.jpg"
+    full: "rainbow_elves.jpg"
+    medium: "Oil on Canvas"
+    collection: "Private Collection"
+  - title: "The Tale of a Dragon"
+    thumb: "fantasy.jpg"
+    full: "thumbs/fantasy.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" X 36"'
+    collection: "Private Collection"
+  - title: "'Tis The Season I"
+    thumb: "my_topsy_turvy_heartI.jpg"
+    full: "thumbs/my_topsy_turvy_heartI.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '30" X 36"'
+    collection: "Private Collection"
+  - title: "'Tis The Season II"
+    thumb: "my_topsy_turvy_heartII-new.jpg"
+    full: "thumbs/my_topsy_turvy_heartII-new.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" X 36"'
+    collection: "Private Collection"
+  - title: "'Tis The Season III"
+    thumb: "my_topsy_turvy_heartIII.jpg"
+    full: "thumbs/my_topsy_turvy_heartIII.jpg"
+    medium: "Oil on Gesso Board"
+    dimensions: '9" X 49"'
+    collection: "Private Collection"

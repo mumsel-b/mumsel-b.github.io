@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+    <p class="footer-copyright">{{ .Site.Params.copyright }}</p>
+  </div>
+</footer>

@@ -1,0 +1,37 @@
+paintings:
+  - title: "Joy to the World"
+    thumb: "joy-to-the-world.jpg"
+    full: "thumbs/joy-to-the-world.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" x 36"'
+    collection: "Private Collection"
+  - title: "Snowbuddy"
+    thumb: "snowbuddy.jpg"
+    full: "thumbs/snowbuddy.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" x 16"'
+    collection: "Private Collection"
+  - title: "Winter Sunshine"
+    thumb: "winter_sun.jpg"
+    full: "thumbs/winter_sun.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '9" x 12"'
+    collection: "Private Collection"
+  - title: "Autumn Leaves"
+    thumb: "autumn_leaves.jpg"
+    full: "thumbs/autumn_leaves.jpg"
+    medium: "Oil on canvas"
+    dimensions: '30" x 36"'
+    collection: "Private Collection"
+  - title: "Love Makes the World Go Round"
+    thumb: "love_makes_the_world_go_round.jpg"
+    full: "thumbs/love_makes_the_world_go_round.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '36" x 48"'
+    collection: "Private Collection"
+  - title: "Springtime: when the world is puddle wonderful"
+    thumb: "puddle_wonderful-new.jpg"
+    full: "thumbs/puddle_wonderful-new.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '24" x 30"'
+    collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"

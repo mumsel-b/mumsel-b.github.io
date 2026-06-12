@@ -1,0 +1,42 @@
+baseURL = "https://annemaritbergstrom.com/"
+locale = "en-us"
+title = "Anne-Marit Bergstrom"
+theme = "bergstrom"
+
+[params]
+  description = "Oil paintings and artwork by Anne-Marit Bergstrom, Dakota Drawings"
+  copyright = "© Dakota Drawings, all rights reserved"
+  artistName = "Anne-Marit Bergstrom"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "The Artist"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Paintings"
+    url = "/paintings/"
+    weight = 3
+  [[menu.main]]
+    name = "News & Press"
+    url = "/news/"
+    weight = 4
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 5
+  [[menu.main]]
+    name = "History"
+    url = "/history/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7

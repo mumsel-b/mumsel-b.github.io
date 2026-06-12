@@ -1,0 +1,18 @@
+paintings:
+  - title: "Listening to Popsel"
+    thumb: "listening_to_popsel.jpg"
+    full: "thumbs/listening_to_popsel.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '16"X20"'
+    collection: "Private Collection"
+  - title: "Studying the Paideia with Popsel"
+    thumb: "studying_paideia_with_popsel.jpg"
+    full: "thumbs/studying_paideia_with_popsel.jpg"
+    medium: "Oil on Canvas"
+    dimensions: '16"X20"'
+    collection: "Private Collection"
+  - title: "Father of the Bride"
+    thumb: "wedding-2.jpg"
+    full: "wedding-2.jpg"
+    medium: "Oil on Canvas"
+    collection: "Private Collection"
