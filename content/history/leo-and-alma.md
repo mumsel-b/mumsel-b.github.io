@@ -10,6 +10,8 @@ weight: 2
 
 The arts are lively in the Lake Region. That is because of so many marvelous individuals who have called this place home. Two of these people were Leo and Alma Studness.
 
+<img src="/images/artist/alma_leo_childhood.jpg" alt="Alma and Leo in their youth" class="artist-photo">
+
 They were many things to many people. They were my parents. So I saw first hand their devotion to education and cultural enrichment.
 
 At an early age Alma Mehus gained great success as a pianist in the most critical capitals of the world. She concertized in twenty-six states in this country and made her European debut as soloist with one of the world's great symphonic organizations, The Berlin Philharmonic Orchestra, at the tender age of twenty.
@@ -17,6 +19,8 @@ At an early age Alma Mehus gained great success as a pianist in the most critica
 During their 64 year marriage, the couple committed themselves to excellence. They brought a wide selection of new art exposures to the Lake Region. Each of them gave unfailing support to awareness and to education.
 
 Both Leo and Alma were born in the Lake Region around the turn of the 20th century. Each had parents who pioneered in Dakota Territory. They grew up within fifteen miles of one another but they did not meet until they were in their twenties.
+
+<img src="/images/artist/alma_anne-marit.jpg" alt="Alma with Anne-Marit" class="artist-photo">
 
 They met at a party in Leeds. Leo attended gathering with his mother. Alma was there with her father, though she had strenuously objected to going to the party. She wanted to stay home to practice the piano. But her father insisted, saying, "It won't hurt you one bit to spend this evening with me." Alma was glad she listened to him.
 
@@ -103,6 +107,8 @@ Then at the American Church one Sunday Alma had the good fortune to become acqua
 Adele Aus der Ohe had just retired from a long concert career at the time when Alma began studying with her. She had made eighteen American concert tours.
 
 The most notable of these tours was in 1893 when Aus der Ohe performed together with Tchaikovsky at the opening of Carnegie Hall in New York City. She played Tchaikovsky's famous B Minor Piano Concerto with Tchaikovsky conducting. Aus der Ohe was a favorite of Tchaikovsky. She played his concerto eight times with him conducting…including four times in Russia.
+
+<img src="/images/artist/alma_ben.jpg" alt="Alma with Ben Bergstrom" class="artist-photo">
 
 As a child prodigy, Aus der Ohe had been a pupil of Franz Liszt.
 

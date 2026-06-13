@@ -16,30 +16,14 @@ In 1924 Alma Mehus Studness enjoyed the distinction of being the youngest Americ
 
 ### From the Life of Alma Mehus Studness...
 
-![Alma Mehus — concert program](/images/artist/small/alma-program.jpg)
-
-*Alma Mehus — concert program*
-
-![Alma Mehus — concert program](/images/artist/small/alma-program2.jpg)
-
-*Alma Mehus — concert program*
-
-![Chautauqua Talk](/images/artist/small/chautauqua-talk.gif)
-
-*Chautauqua Talk*
-
-![Leo and Alma Studness](/images/artist/small/leo-and-alma.jpg)
-
-*Leo and Alma Studness*
-
-![Alma Studness](/images/artist/small/cover.gif)
-
-*Alma Studness*
-
-![Leo Studness](/images/artist/small/leo-studness.gif)
-
-*Leo Studness*
-
-![Alma Studness](/images/artist/small/alma-studness.gif)
-
-*Alma Studness*
+<div class="content-gallery">
+  <img data-full="/images/artist/alma-program.jpg" src="/images/artist/small/alma-program.jpg" alt="Alma Mehus — concert program">
+  <img data-full="/images/artist/alma-program2.jpg" src="/images/artist/small/alma-program2.jpg" alt="Alma Mehus — concert program (continued)">
+  <img data-full="/images/artist/chautauqua-talk.gif" src="/images/artist/small/chautauqua-talk.gif" alt="Chautauqua Talk">
+  <img data-full="/images/artist/leo-and-alma.jpg" src="/images/artist/small/leo-and-alma.jpg" alt="Leo and Alma Studness">
+  <img data-full="/images/artist/cover.gif" src="/images/artist/small/cover.gif" alt="Alma Studness">
+  <img data-full="/images/artist/leo-studness.gif" src="/images/artist/small/leo-studness.gif" alt="Leo Studness">
+  <img data-full="/images/artist/alma-studness.gif" src="/images/artist/small/alma-studness.gif" alt="Alma Studness">
+  <img data-full="/images/merchandise/alma-cd.jpg" src="/images/merchandise/thumbs/alma-cd.jpg" alt="Alma Mehus Studness — CD">
+  <img data-full="/images/merchandise/alma-tape.jpg" src="/images/merchandise/thumbs/alma-tape.jpg" alt="Alma Mehus Studness — Tape">
+</div>

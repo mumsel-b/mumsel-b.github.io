@@ -17,7 +17,7 @@ Their individual pursuits of professional and personal goals is a story of paral
 
 The impact these women have had on the arts in Devils Lake is difficult to measure, if only because they so modestly speak of their contributions. In 1981 Bergstrom was presented the Governor's Award for the Arts. She began her acceptance speech with these words: "At this time I am more aware than ever that no one does anything alone. It is a time to consider the interdependence of us all."
 
-![Anne-Marit in 1942](/images/artist/small/generations.jpg)
+<img src="/images/artist/generations.jpg" alt="Anne-Marit in 1942" class="artist-photo">
 
 *Anne-Marit in 1942*
 

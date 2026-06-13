@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="page-container">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </header>
+  <div style="display:flex; gap:3rem; align-items:flex-start;">
+    <div class="prose" style="flex:1;">
+      {{ .Content }}
+    </div>
+    <div style="flex-shrink:0; width:260px;">
+      <img src="/images/artist/amb.jpg" alt="Anne-Marit Bergstrom" style="display:block; width:100%; border-radius:var(--radius); box-shadow:var(--shadow);">
+    </div>
+  </div>
+</div>
+{{ end }}

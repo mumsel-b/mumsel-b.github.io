@@ -1,7 +1,7 @@
 paintings:
   - title: "Portrait of My Mother"
     thumb: "portrait_of_my_mother.jpg"
-    full: "thumbs/portrait_of_my_mother.jpg"
+    full: "portrait_of_my_mother.jpg"
     dimensions: '11" X 18"'
     collection: "Private Collection Created in 1944"
   - title: "Iva Kitchel"
@@ -12,7 +12,7 @@ paintings:
     collection: "Private Collection Painted in 1949"
   - title: "Cousin Donald"
     thumb: "cousin_donald.jpg"
-    full: "thumbs/cousin_donald.jpg"
+    full: "cousin_donald.jpg"
     medium: "Oil on Paper"
     dimensions: '12" X 16"'
     collection: "Private Collection Painted in 1949"
@@ -30,17 +30,17 @@ paintings:
     collection: "Private Collection Painted in 1959"
   - title: "One of Many Clowns"
     thumb: "one-of-many-clowns.jpg"
-    full: "thumbs/one-of-many-clowns.jpg"
+    full: "one-of-many-clowns.jpg"
     medium: "Oil on Canvas"
     collection: "Private Collection"
   - title: "Happiest Day"
     thumb: "happiest_day.jpg"
-    full: "thumbs/happiest_day.jpg"
+    full: "happiest_day.jpg"
     medium: "acrylic on canvas"
     collection: "Private Collection Painted in 1963"
   - title: "Across the Lake"
     thumb: "across_the_lake.jpg"
-    full: "thumbs/across_the_lake.jpg"
+    full: "across_the_lake.jpg"
     medium: "Oil on Canvas"
     dimensions: '16" x 20"'
     collection: "Private Collection Painted in 1970"

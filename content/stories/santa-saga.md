@@ -28,12 +28,11 @@ Here are Santa and his reindeer, Santa sitting down to pick out a few Christmas 
 Gen Miller first saw the Santa paintings when she stopped in a Devils Lake store where a few of them happened to be on display.
 
 
-"I saw them and I wanted them and that's it. That's
+"I saw them and I wanted them and that's it. That's the way we buy," she said. "I'm really surpirsed she sold them to me, because she didn't want to at first."
 
-![Ralph and Gen Miller](/images/artist/small/santa-saga.jpg)
-
-the way we buy," she said. "I'm really surpirsed she sold them to me, because she didn't want to at first."
-
+<div class="content-gallery">
+  <img data-full="/images/artist/santa-saga.jpg" src="/images/artist/small/santa-saga.jpg" alt="Ralph and Gen Miller">
+</div>
 
 Bergstrom says she originally thought of doing the Santa paintings as a series to make into her family's annual Chirstmas cards, starting in 1982. Thats why the Millers had to do some talking to convince her to part with them.
 

@@ -6,14 +6,9 @@ weight: 11
 
 This article appeared in *Life* magazine in 1961 — the year that Anne-Marit studied with Kokoschka in Salzburg, Austria at his *Schule des Sehens* (School of Vision).
 
-<div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin:2rem 0">
-
-![Oskar Kokoschka — Life Magazine](/images/publications/thumbs/life-4.jpg)
-
-![Oskar Kokoschka — Life Magazine](/images/publications/thumbs/life-1.jpg)
-
-![Oskar Kokoschka — Life Magazine](/images/publications/thumbs/life-2.jpg)
-
-![Oskar Kokoschka — Life Magazine](/images/publications/thumbs/life-3.jpg)
-
+<div class="content-gallery">
+  <img data-full="/images/publications/life-4.jpg" src="/images/publications/thumbs/life-4.jpg" alt="Oskar Kokoschka — Life Magazine, page 1">
+  <img data-full="/images/publications/life-1.jpg" src="/images/publications/thumbs/life-1.jpg" alt="Oskar Kokoschka — Life Magazine, page 2">
+  <img data-full="/images/publications/life-2.jpg" src="/images/publications/thumbs/life-2.jpg" alt="Oskar Kokoschka — Life Magazine, page 3">
+  <img data-full="/images/publications/life-3.jpg" src="/images/publications/thumbs/life-3.jpg" alt="Oskar Kokoschka — Life Magazine, page 4">
 </div>

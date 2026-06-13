@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Artist on Anne-Marit Bergstrom</title><link>https://annemaritbergstrom.com/about/</link><description>Recent content in The Artist on Anne-Marit Bergstrom</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://annemaritbergstrom.com/about/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>The Artist on Anne-Marit Bergstrom</title>
+		<link>https://annemaritbergstrom.com/about/</link>
+		<description>Recent content in The Artist on Anne-Marit Bergstrom</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://annemaritbergstrom.com/about/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Oslo Norcross</title>
+				<link>https://annemaritbergstrom.com/about/oslo-norcross/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://annemaritbergstrom.com/about/oslo-norcross/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Coming soon.&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Will Bergstrom</title>
+				<link>https://annemaritbergstrom.com/about/will-bergstrom/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://annemaritbergstrom.com/about/will-bergstrom/</guid>
+				<description>&lt;p&gt;Will Bergstrom is Anne-Marit&amp;rsquo;s grandson and a gifted writer who collaborated with her on two children&amp;rsquo;s books — &lt;em&gt;The Magic Telescope&lt;/em&gt; (2007) and &lt;em&gt;People of the Prairie&lt;/em&gt; (2008), both illustrated by Anne-Marit. His storytelling and her paintings made for a natural partnership across two generations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;in-the-news&#34;&gt;In the News&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-harvard-crimson--february-23-2012&#34;&gt;The Harvard Crimson — February 23, 2012&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://annemaritbergstrom.com/images/publications/it_takes_two.jpg&#34; alt=&#34;Harvard Crimson — It Takes Two&#34;&gt;&#xA;&lt;img src=&#34;https://annemaritbergstrom.com/images/publications/it_takes_two-2.jpg&#34; alt=&#34;Harvard Crimson — It Takes Two (continued)&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fargo-forum--december-2008&#34;&gt;Fargo Forum — December 2008&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://annemaritbergstrom.com/images/publications/fargo_forum-12-08.jpg&#34; alt=&#34;Fargo Forum — People of the Prairie&#34;&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

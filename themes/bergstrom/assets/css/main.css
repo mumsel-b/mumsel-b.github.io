@@ -534,10 +534,23 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
   max-width: 280px;
 }
 
+.contact-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-photo-col {
+  flex-shrink: 0;
+  width: 260px;
+}
+
 .contact-photo {
   display: block;
-  margin: 0 auto 2.5rem;
-  max-width: 340px;
   width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -824,4 +837,9 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
   .categories-grid { grid-template-columns: 1fr; }
   .painting-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .collections-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .contact-layout { flex-direction: column; }
+  .contact-photo-col { width: 100%; max-width: 300px; }
 }

@@ -17,4 +17,7 @@ With that in mind, Anne-Marit founded the Arts and Humanities Council of the Lak
 
 The cultural program has been a success with area residents. "We have folks come from sixty miles away when it is thirty degrees below," Anne-Marit says. "People need enrichment just as a plant needs water."
 
-![Anne-Marit — Ladies Home Journal](/images/artist/small/ladies-home-journal-cover.jpg)
+<div class="content-gallery">
+  <img data-full="/images/artist/ladies-home-journal-cover.jpg" src="/images/artist/small/ladies-home-journal-cover.jpg" alt="Ladies Home Journal cover">
+  <img data-full="/images/artist/ladies-home-journal-article.gif" src="/images/artist/small/ladies-home-journal-article.gif" alt="Ladies Home Journal article">
+</div>
