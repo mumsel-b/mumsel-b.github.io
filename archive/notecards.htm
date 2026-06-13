@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/dakotadrawings.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Anne-Marit Bergstrom | Note Cards</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<script language="javascript">
+<!--
+/*
+Auto center window script- Eric King (http://redrival.com/eak/index.shtml)
+Permission granted to Dynamic Drive to feature script in archive
+For full source, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+var win = null;
+function NewWindow(mypage,myname,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+win = window.open(mypage,myname,settings)
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+<link href="dakota.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript1.1">
+<!--
+//*****************************************
+// Blending Image Slide Show Script- 
+// © Dynamic Drive (www.dynamicdrive.com)
+// For full source code, visit http://www.dynamicdrive.com/
+//*****************************************
+
+//specify interval between slide (in mili seconds)
+var slidespeed=3000
+
+//specify images
+var slideimages=new Array("../slides/2646.jpg","../slides/2685.jpg","../slides/2620.jpg","../slides/2624.jpg","../slides/2668.jpg","../slides/2669.jpg","../slides/2660.jpg","../slides/2654.jpg")
+
+//specify corresponding links
+//var slidelinks=new Array("http://www.dynamicdrive.com","http://javascriptkit.com","http://www.geocities.com")
+
+var newwindow=1 //open links in new window? 1=yes, 0=no
+
+var imageholder=new Array()
+var ie=document.all
+for (i=0;i<slideimages.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideimages[i]
+}
+
+function gotoshow(){
+if (newwindow)
+window.open(slidelinks[whichlink])
+else
+window.location=slidelinks[whichlink]
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+
+<!--menu script style-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<style type="text/css">
+
+.arrowlistmenu{
+width: 194px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 14px Arial;
+color: white;
+margin-bottom: 4px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 4px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(https://annemaritbergstrom.com/titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 2px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+height: 31px;
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(https://annemaritbergstrom.com/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 4px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+}
+
+</style>
+<!--end menu script style-->
+</head>
+
+<body bgcolor="#FFCC99" background="images/bg.gif" link="#000000" vlink="#000000" alink="#FF6666" onLoad="MM_preloadImages('buttons/home-o.gif','buttons/the-artist-o.gif','buttons/paintings-o.gif','buttons/recent-works-o.gif','buttons/travels-o.gif','buttons/saint-croix-valley-o.gif','buttons/back-in-time-o.gif','buttons/prairie-people-o.gif','buttons/magic-telescope-o.gif','buttons/mystical-moments-o.gif','buttons/fantasy-o.gif','buttons/floral-paintings-o.gif','buttons/reminiscing-o.gif','buttons/remembering-popsel-o.gif','buttons/chautauqua-o.gif','buttons/christmas-o.gif','buttons/self-portraits-o.gif','buttons/early-works-o.gif','buttons/publications-o.gif','buttons/history-o.gif','buttons/wearable-art-o.gif','buttons/notecards-o.gif','buttons/desktops-o.gif','buttons/contact-us-o.gif')">
+<table width="770"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr background="images/bg.gif">
+    <td height="744" colspan="3">
+     
+    <table width="770" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="23%" rowspan="4" valign="top">
+
+
+
+<div class="arrowlistmenu">
+    <div align="center"><a class="menuheader" href="home.htm"><img src="buttons/home.gif" alt="Home" border="0" id="Image1" onMouseOver="MM_swapImage('Image1','','buttons/home-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="artist.htm"><img src="buttons/the-artist.gif" alt="The Artist" border="0" id="Image2" onMouseOver="MM_swapImage('Image2','','buttons/the-artist-o.gif',1)" onMouseOut="MM_swapImgRestore()" /> <br>
+          </a>
+          <a class="menuheader" href="news_articles.htm"><img src="buttons/news-articles.png" alt="News Articles" border="0" id="Image3" onMouseOver="MM_swapImage('Image3','','buttons/news-articles-o.png',1)" onMouseOut="MM_swapImgRestore()" /> <br>
+          </a>
+      <a class="menuheader" href="paintings.htm"><img src="buttons/paintings.gif" alt="Paintings" border="0" id="Image4" onMouseOver="MM_swapImage('Image4','','buttons/paintings-o.gif',1)" onMouseOut="MM_swapImgRestore()" /><br>
+</a>click on the buttons below<br>
+to view paintings in the following categories
+    <a class="menuheader" href="paintings-travels.htm"><img src="buttons/travels.gif" alt="Travels" border="0" id="Image5" onMouseOver="MM_swapImage('Image5','','buttons/travels-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-saint_croix.htm"><img src="buttons/saint-croix-valley.gif" alt="Saint Croix Valley" border="0" id="Image6" onMouseOver="MM_swapImage('Image6','','buttons/saint-croix-valley-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-step_back_in_time.htm"><img src="buttons/back-in-time.gif" alt="A Step Back in Time" border="0" id="Image7" onMouseOver="MM_swapImage('Image7','','buttons/back-in-time-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-people_of_the_prairie.htm"><img src="buttons/prairie-people.gif" alt="People of the Prairie" border="0" id="Image8" onMouseOver="MM_swapImage('Image8','','buttons/prairie-people-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-magic_telescope.htm"><img src="buttons/magic-telescope.gif" alt="The Magic Telescope" border="0" id="Image9" onMouseOver="MM_swapImage('Image9','','buttons/magic-telescope-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-mystical_moments.htm"><img src="buttons/mystical-moments.gif" alt="Mystical Moments" border="0" id="Image10" onMouseOver="MM_swapImage('Image10','','buttons/mystical-moments-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-fantasy.htm"><img src="buttons/fantasy.gif" alt="Fantasy" border="0" id="Image11" onMouseOver="MM_swapImage('Image11','','buttons/fantasy-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-floral.htm"><img src="buttons/floral-paintings.gif" alt="Floral Paintings" border="0" id="Image12" onMouseOver="MM_swapImage('Image12','','buttons/floral-paintings-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-reminiscing.htm"><img src="buttons/reminiscing.gif" alt="Reminiscing" border="0" id="Image13" onMouseOver="MM_swapImage('Image13','','buttons/reminiscing-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-popsel.htm"><img src="buttons/remembering-popsel.gif" alt="Remembering Popsel" border="0" id="Image14" onMouseOver="MM_swapImage('Image14','','buttons/remembering-popsel-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-chautauqua.htm"><img src="buttons/chautauqua.gif" alt="Chautauqua!!!" border="0" id="Image15" onMouseOver="MM_swapImage('Image15','','buttons/chautauqua-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-christmas.htm"><img src="buttons/christmas.gif" alt="Christmas" border="0" id="Image16" onMouseOver="MM_swapImage('Image16','','buttons/christmas-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-self_portraits.htm"><img src="buttons/self-portraits.gif" alt="Self Portraits" border="0" id="Image17" onMouseOver="MM_swapImage('Image17','','buttons/self-portraits-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-early_works.htm"><img src="buttons/early-works.gif" alt="Early Works" border="0" id="Image18" onMouseOver="MM_swapImage('Image18','','buttons/early-works-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-seasons.htm"><img src="buttons/seasons.gif" alt="The Seasons" width="186" height="31" id="Image19" onMouseOver="MM_swapImage('Image19','','buttons/seasons-o.gif',1)" onMouseOut="MM_swapImgRestore()" border="0" /></a>
+	<a class="menuheader" href="publications.htm"><img src="buttons/publications.gif" alt="Publications" border="0" id="Image20" onMouseOver="MM_swapImage('Image20','','buttons/publications-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="history.htm"><img src="buttons/history.gif" alt="History" border="0" id="Image21" onMouseOver="MM_swapImage('Image21','','buttons/history-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="wearable-art.htm"><img src="buttons/wearable-art.gif" alt="Wearable Art" border="0" id="Image22" onMouseOver="MM_swapImage('Image22','','buttons/wearable-art-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="notecards.htm"><img src="buttons/notecards.gif" alt="Note Cards" border="0" id="Image23" onMouseOver="MM_swapImage('Image23','','buttons/notecards-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="desktops.htm"><img src="buttons/desktops.gif" alt="Computer Desktops" border="0" id="Image24" onMouseOver="MM_swapImage('Image24','','buttons/desktops-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="contact.htm"><img src="buttons/contact-us.gif" alt="Contact Us" border="0" id="Image25" onMouseOver="MM_swapImage('Image25','','buttons/contact-us-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a></div>
+</div>		
+
+
+<!--<p>Assuming the current page is named "current.htm", the below links when navigated to expands a particular header on that page:</p>
+<p>
+- <a href="paintings2.htm?expandable=0">Expand 1st header within "expandable" header group</a><br />
+- <a href="paintings2.htm?expandable=2">Expand 3rd header within "expandable" header group</a><br />
+</p>
+
+<p>Helpful links: </p>
+<p>
+- <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment.htm">Adding arbitrary links hat expand/ collapse the contents</a><br />
+- <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment2.htm">Taking advantage of the oninit() and onopenclose() event handlers</a><br />
+</p>-->
+
+<table>
+    <tr>
+              <td></td>
+            </tr>
+  </table></td>
+        <td width="75%" rowspan="2" valign="bottom"><div align="center"><a href="javascript:gotoshow()"><img src="slides/2685.jpg" name="slide" width=360 height=288 vspace="3" border=0 style="filter:blendTrans(duration=3)"
+ /></a>
+          <script language="JavaScript1.1">
+<!--
+
+var whichlink=0
+var whichimage=0
+var blenddelay=(ie)? document.images.slide.filters[0].duration*1000 : 0
+function slideit(){
+if (!document.images) return
+if (ie) document.images.slide.filters[0].apply()
+document.images.slide.src=imageholder[whichimage].src
+if (ie) document.images.slide.filters[0].play()
+whichlink=whichimage
+whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+setTimeout("slideit()",slidespeed+blenddelay)
+}
+slideit()
+
+//-->
+              </script>
+        </div></td>
+        <td width="2%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    <tr background="images/bg.gif">
+    <td height="17" colspan="2"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+    </tr>
+  <tr>
+    <td width="75%" height="350" valign="top"><p><!-- InstanceBeginEditable name="EditRegion3" -->
+      <table width="100%"  border="0" align="left" cellpadding="3" cellspacing="0" bordercolor="#0099FF">
+        <tr>
+          <td width="580" valign="top"><p align="center"><font color="#669999" face="Monotype Corsiva, Brush Script MT, Lucida Handwriting, Tahoma"><img src="titles/notecards.gif" alt="Notecards" width="500" height="40"></font></p>
+            <b>Click on Images to Enlarge </b>
+            <table width="100%" border="0" cellpadding="4" cellspacing="4">
+              <tr valign="top">
+                <td width="21%"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="art/dakotacardsicon.png" alt="Dakota Drawings Notecards" width="114" height="85" onClick="MM_openBrWindow('art/dakotacards.png','','width=591,height=444')"></font></div></td>
+                <td width="48%"><p align="left">This is a box of 6 greeting cards <br>
+                  with pen and ink<br> 
+                  <b>Reproductions of Assorted Pen and Ink Sketches</b><br> 
+                  created by <br>
+                  Anne-Marit Bergstrom<br>
+                Cost: $6.00</p>                </td>
+                <td width="31%">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+              <tr valign="top">
+                <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="art/prarieicon.png" alt="North Dakota Prairie Rose Notecards" width="113" height="83" onClick="MM_openBrWindow('art/prarie.png','','width=586,height=437')"></font></div></td>
+                <td><p align="left">This is a box of 6 greeting cards <br>
+                  of the <b><br>
+                  North Dakota Prairie Rose<br>
+                  </b> created by<br> 
+                Anne-Marit Bergstrom<br>
+                Cost: $6.00</p>                </td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+              <tr valign="top">
+                <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="art/churchicon.png" alt="Churchs Ferry Notecards" width="110" height="76" onClick="MM_openBrWindow('art/church.png','','width=569,height=397')"></font></div></td>
+                <td><p align="left">This is a box of 6 greeting cards<br>
+                  featuring the<br> 
+                  <b>Churchs Ferry Series</b><br>
+                  Created by<br> 
+                  Anne-Marit Bergstrom<br>
+                Cost: $6.00</p>                </td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+              <tr valign="top">
+                <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="the-art/light-of-the-world.jpg" onClick="NewWindow(this.href,'name','716','488','no','center');return false"><img src="the-art/thumbs/light-of-the-world.jpg" alt="Light of the World" width="125" height="82" border="0"></a></font></div></td>
+                <td><div align="left">This is a box of 6 greeting cards<br>
+                    the <b>Light of the World</b><br>
+                    this is one type of card<br> 
+                    Created by <br>
+                Anne-Marit Bergstrom</div></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+              <tr valign="top">
+                <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="art/orchidsicon.png" width="77" height="106" onClick="MM_openBrWindow('art/orchids.png','','width=407,height=551')"></font></div></td>
+                <td><div align="left">This is a box of 6 greeting cards<br>
+                  featuring <b><br>
+                    Orchids To You</b><br>
+                    this is one type of card<br>
+                    Created by <br>
+                Anne-Marit Bergstrom</div></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+              <tr valign="top">
+                <td><p align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="art/mysticicon.png" alt="Mystical Moments with Biblical Theme Notecards" width="83" height="106" onClick="MM_openBrWindow('art/mystic.png','','width=437,height=555')"></font></p>                </td>
+                <td><p align="left">This is a box of 6 greeting cards<br>
+                  featuring <b><br>
+                  Mystical Moments<br> 
+                  With Biblical Theme</b><br>
+                  Created by <br>
+                Anne-Marit Bergstrom<br>
+                Cost: $10.00</p>                </td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td colspan="3"><hr size="1"></td>
+              </tr>
+          </table>          </td></tr>
+      </table>
+    <!-- InstanceEndEditable --></td>
+    <td width="2%" valign="top" background="images/bg.gif">&nbsp;</td>
+  </tr>
+  <tr background="images/bg.gif">
+    <td height="13" colspan="3"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+  </tr>
+  <tr background="images/bg.gif">
+    <td height="39" colspan="3"><div align="center">
+      <p><font size="1"> | <a href="home.htm">Home</a> | <a href="artist.htm">The Artist</a> | <a href="paintings.htm"> Paintings</a>  | <a href="publications.htm">Publications</a> | <a href="history.htm"> History</a> | <a href="wearable-art.htm">Wearable Art</a> | <a href="notecards.htm">Notecards</a> | <a href="desktops.htm">Desktops</a>  | <a href="contact.htm">Contact Us</a> |</font></p>
+      </div>      </td>
+  </tr>
+  
+  <tr valign="top" background="images/bg.gif">
+    <td colspan="3"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+  </tr>
+  <tr valign="top" background="images/bg.gif">
+    <td colspan="3"><div align="center">
+        <font size="1" color="#000000"><br>
+&copy; 2004-17 Dakota Drawings, all rights reserved</font></div></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

@@ -12,15 +12,13 @@ December 17, 1992
 
 Three generations of Norwegian-American women from the Midwest — mother, daughter, and grand-daughter — have all, over the years, served with special distinction in the arts. In so doing they have achieved well-earned recognition not only in their native state of North Dakota but also far beyond. It is our pleasure in this article to present these three women to our readers.
 
-![Three Generations: Alma Mehus Studness, Anne-Marit Studness Bergstrom, and Mira Leigh Bergstrom](/images/artist/small/three-generations.jpg)
-
-*Three Generations: Alma Mehus Studness, Anne-Marit Studness Bergstrom, and Mira Leigh Bergstrom*
-
 By way of introduction, we commence with a brief sample of their many accomplishments:
 
 - First in seniority is the distinguished concert pianist, Alma Mehus Studness. While studying in Europe and barely in her 20s, she was accorded the singular honor of being invited to solo with the great Berlin Philharmonic, playing the demanding Tchaikovsky Piano Concerto in B flat minor.
 - Alma's daughter, Anne-Marit Studness Bergstrom — musician, painter, and cultural leader — has been hailed by both state and national publications for her many contributions. Alma and Anne are natives of Devils Lake, North Dakota, where they continue to reside.
 - Alma's grand-daughter and Anne's daughter — Mira Leigh Bergstrom, still in her 20s — has followed in their footsteps, studying music and art from earliest childhood. After college, Mira was selected for the prestigious position as a Luce Scholar for an internship at the National Palace Museum — the preeminent repository of Chinese art — in Taipei, Taiwan.
+
+<img src="/images/artist/three-generations.jpg" alt="Three Generations: Alma Mehus Studness, Anne-Marit Studness Bergstrom, and Mira Leigh Bergstrom" class="artist-photo">
 
 ### Alma Mehus Studness
 

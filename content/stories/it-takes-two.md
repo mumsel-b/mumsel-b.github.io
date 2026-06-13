@@ -7,9 +7,11 @@ weight: 2
 **By Valeria M. Pelet, Crimson Staff Writer**  
 *The Harvard Crimson* — February 23, 2012
 
-[![Anne-Marit Bergstrom and William Bergstrom — Photo by Parul Agarwal, The Harvard Crimson](/images/publications/grandiose-laughs.jpg)](http://www.thecrimson.com/image/2012/2/23/book-ittakestwo-8/)
+<div class="content-gallery">
+  <img src="/images/publications/grandiose-laughs.jpg" alt="Anne-Marit Bergstrom and William Bergstrom — Photo by Parul Agarwal, The Harvard Crimson">
+</div>
 
-*Photo by [Parul Agarwal](http://www.thecrimson.com/writer/1205800/Parul__Agarwal/) · Source: [The Harvard Crimson](http://www.thecrimson.com/article/2012/2/23/it-takes-two-bergstrom/)*
+*Photo by Parul Agarwal · Source: The Harvard Crimson*
 
 In 2004, William V. Bergstrom '13 wrote a creative essay for an English class which he later published as a picture book. His grandmother, Anne-Marit "Mumsel" Bergstrom illustrated the book, called "The Magic Telescope." Mumsel is an established artist from Devil's Lake, N.D. William is an English concentrator living in Winthrop House and an Editorial Chair of The Harvard Crimson. FM sat down and spoke with them about their illustrator-writer relationship. The interview has been edited for concision.
 

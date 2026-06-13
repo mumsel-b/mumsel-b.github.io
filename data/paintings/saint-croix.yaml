@@ -1,19 +1,19 @@
 paintings:
   - title: "Seen in the Saint Croix River Valley"
     thumb: "trees.jpg"
-    full: "thumbs/trees.jpg"
+    full: "trees.jpg"
     medium: "Oil on Canvas"
     dimensions: '24" x 30"'
     collection: "Private Collection"
   - title: "It's Spring!"
     thumb: "its_spring.jpg"
-    full: "thumbs/its_spring.jpg"
+    full: "its_spring.jpg"
     medium: "Oil on Canvas"
     dimensions: '16" x 20"'
     collection: "Private Collection"
   - title: "Basking in Winter Sunshine"
     thumb: "basking_in_winter_sunshine-06-14.jpg"
-    full: "thumbs/basking_in_winter_sunshine-06-14.jpg"
+    full: "basking_in_winter_sunshine-06-14.jpg"
     medium: "Oil on Canvas"
     dimensions: '22" x 28"'
     collection: "Private Collection"
@@ -24,7 +24,7 @@ paintings:
     collection: "Private Collection"
   - title: "Almost Ready for Winter"
     thumb: "fall_trees-2.jpg"
-    full: "thumbs/fall_trees-2.jpg"
+    full: "fall_trees-2.jpg"
     medium: "Oil on Canvas"
     dimensions: '0" X 40"'
     collection: "Private Collection"

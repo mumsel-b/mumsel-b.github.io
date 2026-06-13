@@ -534,10 +534,57 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
   max-width: 280px;
 }
 
+.content-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.content-gallery a {
+  display: block;
+  flex-shrink: 0;
+}
+
+.content-gallery img {
+  height: 160px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: zoom-in;
+  transition: opacity 0.2s;
+  display: block;
+}
+
+.content-gallery img:hover {
+  opacity: 0.85;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-photo-col {
+  flex-shrink: 0;
+  width: 260px;
+}
+
 .contact-photo {
   display: block;
-  margin: 0 auto 2.5rem;
-  max-width: 340px;
   width: 100%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -663,6 +710,40 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
 .page-list-item p { font-size: 0.9rem; color: var(--text-muted); }
 
 /* ---------- Publications ---------- */
+.pub-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0;
+  margin-bottom: 2.5rem;
+}
+
+.pub-nav {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.pub-nav a {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.pub-nav a:hover {
+  color: var(--burgundy);
+  border-bottom-color: var(--burgundy);
+}
+
 .pub-list {
   display: flex;
   flex-direction: column;
@@ -824,4 +905,9 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
   .categories-grid { grid-template-columns: 1fr; }
   .painting-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .collections-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .contact-layout { flex-direction: column; }
+  .contact-photo-col { width: 100%; max-width: 300px; }
 }

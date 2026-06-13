@@ -41,3 +41,7 @@ The artist is a fourth generation North Dakotan. Three of her grandparents and t
 
 
 Bergstrom's two paintings will be permanently displayed one on each side of the reception area of the Devils Lake Area Chamber's Visitor's Center for everyone to enjoy.
+
+<div class="content-gallery">
+  <img src="/images/slides/2685.jpg" alt="Devils Lake Chamber of Commerce mural paintings by Anne-Marit Bergstrom">
+</div>

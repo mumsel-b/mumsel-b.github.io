@@ -12,13 +12,13 @@ paintings:
     collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"
   - title: "Looking Back"
     thumb: "home.jpg"
-    full: "thumbs/home.jpg"
+    full: "home.jpg"
     medium: "Oil on Canvas"
     dimensions: '30" x 36"'
     collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"
   - title: "Home Sweet Home"
     thumb: "home-sweet-home.jpg"
-    full: "thumbs/home-sweet-home.jpg"
+    full: "home-sweet-home.jpg"
     medium: "Oil on Canvas"
     dimensions: '30" x 36"'
     collection: "Displayed at Marketplace Motors Devils Lake, ND"

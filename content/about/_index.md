@@ -29,9 +29,11 @@ Anne-Marit studied music and art throughout high school, college, and the follow
 
 Her involvement in the arts earned her:
 - **North Dakota Governor's Award** (1981) — for her role in expanding arts awareness in the community
-- **President's Volunteer Action Award** — presented by President Reagan in the East Room of the White House (1982)
+- **President's Volunteer Action Award** — presented by President Reagan in the East Room of the White House (1982 - [link](https://www.nytimes.com/1982/04/15/us/reagan-honors-18-for-voluntarism.html))
 - **Ladies Home Journal America Heroine Award** (1984)
 
 ## Mission Statement
 
 In my childhood home an appreciation of the beautiful transcended boundaries of time and place. My grandfather came to America in the late Nineteenth century. He brought with him his violin and a treasure trove of Scandinavian Folk Songs. These songs became deeply etched in the hearts of our family. I am grateful to have learned to love both music and the graphic arts. This love deepened when I studied voice with Jennie Tourel and the legendary Danish singer, Aksel Schiot. My love of painting blossomed under the tutelage of Oskar Kokoschka at his *Schule des Sehens* in Salzburg, Austria. During my professional career I performed as a colorature soprano, but when I married I found an even greater satisfaction singing lullabies. Through forty plus years of marriage I cherished the great joys found in the simple pleasures of every day life. As I sing with my paintbrush I endeavor to communicate the songs that abide in my heart. I am deeply grateful for the songs my Mother taught me and also for the songs I learn daily from my grandchildren and their parents. I only hope I can pass them on.
+
+## Collaborators

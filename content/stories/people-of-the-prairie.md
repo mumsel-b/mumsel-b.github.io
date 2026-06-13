@@ -6,4 +6,6 @@ weight: 3
 
 *Fargo Forum* — December 2008
 
-![People of Prairie — a delightful read](/images/publications/fargo_forum-12-08.jpg)
+<div class="content-gallery">
+  <img src="/images/publications/fargo_forum-12-08.jpg" alt="People of Prairie — a delightful read">
+</div>

@@ -8,6 +8,11 @@ weight: 1
 
 Alma Mehus Studness one of many who have enhanced life in the Lake Region through the arts and Chautauqua.
 
+<div class="content-gallery">
+  <img src="/images/artist/alma_anne-marit_performing.jpg" alt="Alma Mehus Studness and Anne-Marit performing">
+  <img src="/images/artist/ben_richard.jpg" alt="Ben Bergstrom and Richard Lange">
+</div>
+
 Alma Mehus Studness came to Devils Lake as a blushing bride in her mid twenties. The year was 1929. She had grown up in the Lake Region. She was returning home to her beloved childhood home.
 
 The past several years, as a music student and then as a concert pianist, she had lived in a number of the cultural capitols of the world… Minneapolis, Chicago, Philadelphia, New York, Berlin. You could say she came home trailing clouds of glory. She was in love. And her husband loved her immeasurably. They were married at the home of friends in Stanford, Connecticut on January 23.

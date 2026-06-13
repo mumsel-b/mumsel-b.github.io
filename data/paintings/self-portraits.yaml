@@ -13,7 +13,7 @@ paintings:
     collection: "Private Collection"
   - title: "At M.D. Anderson"
     thumb: "portrait-2.jpg"
-    full: "thumbs/portrait-2.jpg"
+    full: "portrait-2.jpg"
     medium: "Oil on Canvas"
     dimensions: '16" X 20"'
     collection: "Private Collection"

@@ -8,17 +8,18 @@
   var lbMeta = document.getElementById('lightbox-meta');
   var lbCollection = document.getElementById('lightbox-collection');
 
-  var cards = [];
+  var currentDeck = [];
   var currentIndex = 0;
 
-  function openLightbox(index) {
+  function openLightbox(deck, index) {
+    currentDeck = deck;
     currentIndex = index;
-    var card = cards[index];
-    lbImg.src = card.dataset.full;
-    lbImg.alt = card.dataset.title || '';
-    lbTitle.textContent = card.dataset.title || '';
-    lbMeta.textContent = card.dataset.meta || '';
-    lbCollection.textContent = card.dataset.collection || '';
+    var d = deck[index];
+    lbImg.src = d.full;
+    lbImg.alt = d.title || '';
+    lbTitle.textContent = d.title || '';
+    lbMeta.textContent = d.meta || '';
+    lbCollection.textContent = d.collection || '';
     lightbox.classList.add('open');
     document.body.style.overflow = 'hidden';
     lightbox.focus();
@@ -31,30 +32,14 @@
   }
 
   function showNext() {
-    openLightbox((currentIndex + 1) % cards.length);
+    openLightbox(currentDeck, (currentIndex + 1) % currentDeck.length);
   }
 
   function showPrev() {
-    openLightbox((currentIndex - 1 + cards.length) % cards.length);
+    openLightbox(currentDeck, (currentIndex - 1 + currentDeck.length) % currentDeck.length);
   }
 
-  function initGallery() {
-    cards = Array.from(document.querySelectorAll('.painting-card[data-full]'));
-    if (!cards.length) return;
-
-    cards.forEach(function (card, i) {
-      card.addEventListener('click', function () { openLightbox(i); });
-      card.setAttribute('tabindex', '0');
-      card.setAttribute('role', 'button');
-      card.setAttribute('aria-label', 'View painting: ' + (card.dataset.title || ''));
-      card.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          openLightbox(i);
-        }
-      });
-    });
-
+  function setupLightboxControls() {
     lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
     lightbox.querySelector('.lightbox-next').addEventListener('click', showNext);
     lightbox.querySelector('.lightbox-prev').addEventListener('click', showPrev);
@@ -68,6 +53,64 @@
       if (e.key === 'Escape') closeLightbox();
       if (e.key === 'ArrowRight') showNext();
       if (e.key === 'ArrowLeft') showPrev();
+    });
+  }
+
+  // ---- Painting gallery ----
+  function initGallery() {
+    var cards = Array.from(document.querySelectorAll('.painting-card[data-full]'));
+    if (!cards.length) return;
+
+    var deck = cards.map(function (card) {
+      return {
+        full: card.dataset.full,
+        title: card.dataset.title || '',
+        meta: card.dataset.meta || '',
+        collection: card.dataset.collection || ''
+      };
+    });
+
+    cards.forEach(function (card, i) {
+      card.addEventListener('click', function () { openLightbox(deck, i); });
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', 'View painting: ' + (card.dataset.title || ''));
+      card.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openLightbox(deck, i);
+        }
+      });
+    });
+  }
+
+  // ---- Content photo galleries ----
+  function initContentGallery() {
+    var galleries = document.querySelectorAll('.content-gallery');
+    galleries.forEach(function (gallery) {
+      var imgs = Array.from(gallery.querySelectorAll('img'));
+      if (!imgs.length) return;
+
+      var deck = imgs.map(function (img) {
+        return { full: img.dataset.full || img.src, title: img.alt || '', meta: '', collection: '' };
+      });
+
+      imgs.forEach(function (img, i) {
+        img.addEventListener('click', function () {
+          openLightbox(deck, i);
+        });
+      });
+    });
+  }
+
+  // ---- Publication book covers ----
+  function initPubGallery() {
+    var imgs = Array.from(document.querySelectorAll('.pub-item img[data-full]'));
+    imgs.forEach(function (img) {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', function () {
+        openLightbox([{ full: img.dataset.full, title: img.alt || '', meta: '', collection: '' }], 0);
+      });
     });
   }
 
@@ -117,7 +160,6 @@
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
 
-    // Close nav when a link is clicked
     nav.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () {
         nav.classList.remove('open');
@@ -126,9 +168,18 @@
     });
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    initGallery();
-    initSlideshow();
-    initNav();
-  });
+  function run() {
+    try { setupLightboxControls(); } catch(e) {}
+    try { initGallery(); } catch(e) {}
+    try { initContentGallery(); } catch(e) {}
+    try { initPubGallery(); } catch(e) {}
+    try { initSlideshow(); } catch(e) {}
+    try { initNav(); } catch(e) {}
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
 })();

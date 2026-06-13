@@ -21,7 +21,9 @@ Besides painting, she developed an early interest in music, starting voice lesso
 Bergstrom, 47, said music and painting have a lot in common. "Music and art share harmony, rhythm, composition, color, and structure. My music studies helped me with my oil painting," she said. Bergstrom now "sings with her paint brush."
 
 
-![Anne-Marit holding her first oil painting.](/images/publications/thumbs/first-oil.jpg)
+<div class="content-gallery">
+  <img data-full="/images/publications/first-oil.jpg" src="/images/publications/thumbs/first-oil.jpg" alt="Anne-Marit holding her first oil painting">
+</div>
 
 Her interest in oil painting got a boost when her parents, Leo and Alma Studness, took a three week Christmas vacation to New York City in the 1940s. Her mother tried to arrange for oil painting lessons for her from the Art Student League of New York City.
 
@@ -32,7 +34,9 @@ Her interest in oil painting got a boost when her parents, Leo and Alma Studness
 Later, as a young woman, Bergstrom, a lyric soprano, traveled to the Mozarteum in Salzburg, Austria, where she studied voice with Julius Patak and Lotte Schone. She was also able to study under German expressionist painter Oskar Kokoschka at "The School of Seeing." "Kokoschka always told his students, 'Everyone stares, but you must see' to be an artist. Even now, I refer to my studies with him in Austria and use it in my painting system," she said.
 
 
-![Anne-Marit painting the Flower Cart for her son, Renard.](/images/artist/small/flower-cart.jpg)
+<div class="content-gallery">
+  <img data-full="/images/artist/flower-cart.jpg" src="/images/artist/small/flower-cart.jpg" alt="Anne-Marit painting the Flower Cart for her son, Renard">
+</div>
 
 Since her marriage to Bill Bergstrom, Devils Lake auto dealer, in 1961, she has given up the stage for oil paining. The couple has two children, Renard, 21, who graduated this spring from the US Air Force Academy in Colorado Springs, Colo., and daughter Mira, 19, a sophomore at Carleton College, Northfield, Minn.
 
@@ -69,7 +73,9 @@ Bergstrom estimates she has completed between 300 and 400 paintings. With the ex
 
 Bergstrom was instrumental in organizing
 
-![Anne-Marit holding her first oil painting.](/images/artist/small/anne-marit-prairie.jpg)
+<div class="content-gallery">
+  <img data-full="/images/artist/anne-marit-prairie.jpg" src="/images/artist/small/anne-marit-prairie.jpg" alt="Anne-Marit on the prairie">
+</div>
 
 the Arts and Humanities Council of the Lake Region in 1976. In 1981, she received the Governor's Award for the Arts from the North Dakota Council of the Arts. President Reagan awarded her one of 16 Volunteer Action awards in 1982. In 1984, Ladies Home Journal named her one of 40 American heroines who exemplify the initiative and determination of generations of women who have helped mold the country.
 

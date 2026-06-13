@@ -1,13 +1,13 @@
 paintings:
   - title: "God Bless America"
     thumb: "white_house.jpg"
-    full: "thumbs/white_house.jpg"
+    full: "white_house.jpg"
     medium: "Oil on Masonite board"
     dimensions: '21" x 26"'
     collection: "Private Collection"
   - title: "Flowers on the Prairie"
     thumb: "flowers_on_the_prairie.jpg"
-    full: "thumbs/flowers_on_the_prairie.jpg"
+    full: "flowers_on_the_prairie.jpg"
     medium: "Oil on Canvas"
     dimensions: '30" x 36"'
     collection: "Private Collection"
@@ -81,7 +81,7 @@ paintings:
     collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"
   - title: "Cannes"
     thumb: "vacation-new.jpg"
-    full: "thumbs/vacation-new.jpg"
+    full: "vacation-new.jpg"
     medium: "Oil on Canvas"
     collection: "Private Collection"
   - title: "Hawaiian Holiday"
@@ -108,7 +108,7 @@ paintings:
     collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"
   - title: "April in Paris"
     thumb: "paris.jpg"
-    full: "thumbs/paris.jpg"
+    full: "paris.jpg"
     medium: "Oil on Canvas"
     dimensions: '24" x 30"'
     collection: "Displayed at Holiday Inn Express Saint Croix Falls, WI"

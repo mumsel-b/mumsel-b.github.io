@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="page-container">
+  <header class="page-header pub-header">
+    <div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+    </div>
+    <nav class="pub-nav">
+      <a href="#books">Books</a>
+      <a href="#note-cards">Note Cards</a>
+      <a href="#wearable-art">Wearable Art</a>
+    </nav>
+  </header>
+  <div class="page-content prose">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,470 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/dakotadrawings.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<title>Anne-Marit Bergstrom | 3 Generations</title>
+
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+
+<script language="javascript">
+
+<!--
+
+/*
+
+Auto center window script- Eric King (http://redrival.com/eak/index.shtml)
+
+Permission granted to Dynamic Drive to feature script in archive
+
+For full source, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+*/
+
+
+
+var win = null;
+
+function NewWindow(mypage,myname,w,h,scroll){
+
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+
+settings =
+
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+
+win = window.open(mypage,myname,settings)
+
+}
+
+
+
+function MM_swapImgRestore() { //v3.0
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+}
+
+
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v4.0
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+
+}
+
+
+
+function MM_swapImage() { //v3.0
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+}
+
+//-->
+
+</script>
+
+<!-- InstanceEndEditable -->
+<link href="dakota.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript1.1">
+<!--
+//*****************************************
+// Blending Image Slide Show Script- 
+// © Dynamic Drive (www.dynamicdrive.com)
+// For full source code, visit http://www.dynamicdrive.com/
+//*****************************************
+
+//specify interval between slide (in mili seconds)
+var slidespeed=3000
+
+//specify images
+var slideimages=new Array("../slides/2646.jpg","../slides/2685.jpg","../slides/2620.jpg","../slides/2624.jpg","../slides/2668.jpg","../slides/2669.jpg","../slides/2660.jpg","../slides/2654.jpg")
+
+//specify corresponding links
+//var slidelinks=new Array("http://www.dynamicdrive.com","http://javascriptkit.com","http://www.geocities.com")
+
+var newwindow=1 //open links in new window? 1=yes, 0=no
+
+var imageholder=new Array()
+var ie=document.all
+for (i=0;i<slideimages.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideimages[i]
+}
+
+function gotoshow(){
+if (newwindow)
+window.open(slidelinks[whichlink])
+else
+window.location=slidelinks[whichlink]
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+
+<!--menu script style-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<style type="text/css">
+
+.arrowlistmenu{
+width: 194px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 14px Arial;
+color: white;
+margin-bottom: 4px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 4px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(https://annemaritbergstrom.com/titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 2px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+height: 31px;
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(https://annemaritbergstrom.com/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 4px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+}
+
+</style>
+<!--end menu script style-->
+</head>
+
+<body bgcolor="#FFCC99" background="images/bg.gif" link="#000000" vlink="#000000" alink="#FF6666" onLoad="MM_preloadImages('buttons/home-o.gif','buttons/the-artist-o.gif','buttons/paintings-o.gif','buttons/recent-works-o.gif','buttons/travels-o.gif','buttons/saint-croix-valley-o.gif','buttons/back-in-time-o.gif','buttons/prairie-people-o.gif','buttons/magic-telescope-o.gif','buttons/mystical-moments-o.gif','buttons/fantasy-o.gif','buttons/floral-paintings-o.gif','buttons/reminiscing-o.gif','buttons/remembering-popsel-o.gif','buttons/chautauqua-o.gif','buttons/christmas-o.gif','buttons/self-portraits-o.gif','buttons/early-works-o.gif','buttons/publications-o.gif','buttons/history-o.gif','buttons/wearable-art-o.gif','buttons/notecards-o.gif','buttons/desktops-o.gif','buttons/contact-us-o.gif')">
+<table width="770"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr background="images/bg.gif">
+    <td height="744" colspan="3">
+     
+    <table width="770" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="23%" rowspan="4" valign="top">
+
+
+
+<div class="arrowlistmenu">
+    <div align="center"><a class="menuheader" href="home.htm"><img src="buttons/home.gif" alt="Home" border="0" id="Image1" onMouseOver="MM_swapImage('Image1','','buttons/home-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="artist.htm"><img src="buttons/the-artist.gif" alt="The Artist" border="0" id="Image2" onMouseOver="MM_swapImage('Image2','','buttons/the-artist-o.gif',1)" onMouseOut="MM_swapImgRestore()" /> <br>
+          </a>
+          <a class="menuheader" href="news_articles.htm"><img src="buttons/news-articles.png" alt="News Articles" border="0" id="Image3" onMouseOver="MM_swapImage('Image3','','buttons/news-articles-o.png',1)" onMouseOut="MM_swapImgRestore()" /> <br>
+          </a>
+      <a class="menuheader" href="paintings.htm"><img src="buttons/paintings.gif" alt="Paintings" border="0" id="Image4" onMouseOver="MM_swapImage('Image4','','buttons/paintings-o.gif',1)" onMouseOut="MM_swapImgRestore()" /><br>
+</a>click on the buttons below<br>
+to view paintings in the following categories
+    <a class="menuheader" href="paintings-travels.htm"><img src="buttons/travels.gif" alt="Travels" border="0" id="Image5" onMouseOver="MM_swapImage('Image5','','buttons/travels-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-saint_croix.htm"><img src="buttons/saint-croix-valley.gif" alt="Saint Croix Valley" border="0" id="Image6" onMouseOver="MM_swapImage('Image6','','buttons/saint-croix-valley-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-step_back_in_time.htm"><img src="buttons/back-in-time.gif" alt="A Step Back in Time" border="0" id="Image7" onMouseOver="MM_swapImage('Image7','','buttons/back-in-time-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-people_of_the_prairie.htm"><img src="buttons/prairie-people.gif" alt="People of the Prairie" border="0" id="Image8" onMouseOver="MM_swapImage('Image8','','buttons/prairie-people-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-magic_telescope.htm"><img src="buttons/magic-telescope.gif" alt="The Magic Telescope" border="0" id="Image9" onMouseOver="MM_swapImage('Image9','','buttons/magic-telescope-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-mystical_moments.htm"><img src="buttons/mystical-moments.gif" alt="Mystical Moments" border="0" id="Image10" onMouseOver="MM_swapImage('Image10','','buttons/mystical-moments-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-fantasy.htm"><img src="buttons/fantasy.gif" alt="Fantasy" border="0" id="Image11" onMouseOver="MM_swapImage('Image11','','buttons/fantasy-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-floral.htm"><img src="buttons/floral-paintings.gif" alt="Floral Paintings" border="0" id="Image12" onMouseOver="MM_swapImage('Image12','','buttons/floral-paintings-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-reminiscing.htm"><img src="buttons/reminiscing.gif" alt="Reminiscing" border="0" id="Image13" onMouseOver="MM_swapImage('Image13','','buttons/reminiscing-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-popsel.htm"><img src="buttons/remembering-popsel.gif" alt="Remembering Popsel" border="0" id="Image14" onMouseOver="MM_swapImage('Image14','','buttons/remembering-popsel-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-chautauqua.htm"><img src="buttons/chautauqua.gif" alt="Chautauqua!!!" border="0" id="Image15" onMouseOver="MM_swapImage('Image15','','buttons/chautauqua-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-christmas.htm"><img src="buttons/christmas.gif" alt="Christmas" border="0" id="Image16" onMouseOver="MM_swapImage('Image16','','buttons/christmas-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-self_portraits.htm"><img src="buttons/self-portraits.gif" alt="Self Portraits" border="0" id="Image17" onMouseOver="MM_swapImage('Image17','','buttons/self-portraits-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-early_works.htm"><img src="buttons/early-works.gif" alt="Early Works" border="0" id="Image18" onMouseOver="MM_swapImage('Image18','','buttons/early-works-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+    <a class="menuheader" href="paintings-seasons.htm"><img src="buttons/seasons.gif" alt="The Seasons" width="186" height="31" id="Image19" onMouseOver="MM_swapImage('Image19','','buttons/seasons-o.gif',1)" onMouseOut="MM_swapImgRestore()" border="0" /></a>
+	<a class="menuheader" href="publications.htm"><img src="buttons/publications.gif" alt="Publications" border="0" id="Image20" onMouseOver="MM_swapImage('Image20','','buttons/publications-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="history.htm"><img src="buttons/history.gif" alt="History" border="0" id="Image21" onMouseOver="MM_swapImage('Image21','','buttons/history-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="wearable-art.htm"><img src="buttons/wearable-art.gif" alt="Wearable Art" border="0" id="Image22" onMouseOver="MM_swapImage('Image22','','buttons/wearable-art-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="notecards.htm"><img src="buttons/notecards.gif" alt="Note Cards" border="0" id="Image23" onMouseOver="MM_swapImage('Image23','','buttons/notecards-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="desktops.htm"><img src="buttons/desktops.gif" alt="Computer Desktops" border="0" id="Image24" onMouseOver="MM_swapImage('Image24','','buttons/desktops-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a>
+      <a class="menuheader" href="contact.htm"><img src="buttons/contact-us.gif" alt="Contact Us" border="0" id="Image25" onMouseOver="MM_swapImage('Image25','','buttons/contact-us-o.gif',1)" onMouseOut="MM_swapImgRestore()" /></a></div>
+</div>		
+
+
+<!--<p>Assuming the current page is named "current.htm", the below links when navigated to expands a particular header on that page:</p>
+<p>
+- <a href="paintings2.htm?expandable=0">Expand 1st header within "expandable" header group</a><br />
+- <a href="paintings2.htm?expandable=2">Expand 3rd header within "expandable" header group</a><br />
+</p>
+
+<p>Helpful links: </p>
+<p>
+- <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment.htm">Adding arbitrary links hat expand/ collapse the contents</a><br />
+- <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment2.htm">Taking advantage of the oninit() and onopenclose() event handlers</a><br />
+</p>-->
+
+<table>
+    <tr>
+              <td></td>
+            </tr>
+  </table></td>
+        <td width="75%" rowspan="2" valign="bottom"><div align="center"><a href="javascript:gotoshow()"><img src="slides/2685.jpg" name="slide" width=360 height=288 vspace="3" border=0 style="filter:blendTrans(duration=3)"
+ /></a>
+          <script language="JavaScript1.1">
+<!--
+
+var whichlink=0
+var whichimage=0
+var blenddelay=(ie)? document.images.slide.filters[0].duration*1000 : 0
+function slideit(){
+if (!document.images) return
+if (ie) document.images.slide.filters[0].apply()
+document.images.slide.src=imageholder[whichimage].src
+if (ie) document.images.slide.filters[0].play()
+whichlink=whichimage
+whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+setTimeout("slideit()",slidespeed+blenddelay)
+}
+slideit()
+
+//-->
+              </script>
+        </div></td>
+        <td width="2%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    <tr background="images/bg.gif">
+    <td height="17" colspan="2"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+    </tr>
+  <tr>
+    <td width="75%" height="350" valign="top"><p><!-- InstanceBeginEditable name="EditRegion3" -->
+
+      <table width="100%"  border="0" align="left" cellpadding="3" cellspacing="0" bordercolor="#0099FF">
+
+        <tr>
+
+          <td width="580" valign="top"><center>
+
+            <p><font color="#669999" face="Monotype Corsiva, Brush Script MT, Lucida Handwriting, Tahoma"><img src="titles/norway-times.gif" alt="Three Generations of Norwegian-American Women Achieve Prominence in the Arts" width="500" height="70"></font></p>
+
+            <p align="left"><i><b>Norway Times <br>
+
+              </b></i><b> by Donald V. Mehus <br>
+
+                December 17, 1992</b>              </p>
+
+          </center>
+
+          <p align="justify">Three generations of Norwegian-American women from the Midwest - mother, daughter, and grand-daughter - <a href="the-artist/three-generations.jpg" onClick="NewWindow(this.href,'name','610','470','no','center');return false"><img src="the-artist/small/three-generations.jpg" alt="Three Generations : Alma Mehus Studness, Anne-Marit Studness Bergstrom, and Mira Leigh Bergstrom" width="300" height="234" hspace="4" vspace="4" border="0" align="right"></a>have all, over the years, served with special distinction in the arts. In so doing they have achieved well-earned recognition not only in their native state of North Dakota but also far beyond. It is our pleasure in this article to present these three women to our readers.</p>
+
+              <p align="justify">By way of introduction, we commence with a brief sample of their many accomplishments:</p>
+
+              <div align="justify">
+
+                <ul>
+
+                  <li><font align="justify">First in seniority is the distingushed concert pianist, Alma Mehus Studness. While studying in Europe and barely in her 20s, she was accorded the singular honor of being invited to solo with the great Berlin Philharmonic, playing the demanding Tchaikovsky Piano Concerto in B flat minor.</font></li>
+
+                    <li>Alma's daughter, Anne-Marit Studness Bergstrom - musician, painter, and cultural leader - has been hailed by both state and national publications for her many contributions. Alma and Anne are natives of Devils Lake, North Dakota, where they continue to reside.</li>
+
+                    <li>Alma's grand-daughter and Anne's daughter - Mira Leigh Bergstrom, still in her 20s - has followed in their footsteps, studying music and art from earliest childhood. After college, Mira was selected for the prestigious position as a Luce Scholar for an internship at the National Palace Museum - the preeminent repository of Chinese art - in Taipei, Taiwan.</li>
+
+                </ul>
+
+              </div>            <h5 align="justify">Alma Mehus Studness</h5>
+
+              <p align="justify">Alma Mehus was born in the small North Dakota town of Brinsmade, not far from Devils Lake, of Norwegian pioneers. Her parents, Mikkel Knudson Mehus and Anne Olsdatter Myking Mehus, natives of Hallingdal, had come to the United States during the great wave of Norwegian immigration a few years earlier.</p>
+
+              <p align="justify">Settling in the Devils Lake region, they reared a family of four children, all of whom were to achieve distinction in their respective fields. The first born in 1894, was Oscar Myking Mehus, who was to become a prominent educator and college president. Three daughters followed: Belle Mehus, pianist and founder (in Bismarck, North Dakota) of the Mehus Conservatory of Music; Hilda Mehus, noted clinical psychologist; and the youngest, Alma Mehus.</p>
+
+              <p align="justify">Living successively on a farm and in small towns of sparsely populated North Dakota, the parents were determined to provide a cultural milieu for the growing family. Of great importance was their obtaining a piano, the first in the community. As little more than a toddler Belle commenced piano lessons; and then later, just seven years older than her sister Alma, Belle - not yet in her teens - became Alma's first piano teacher. Belle soon came to recognize her sister's very special musical talent; later Belle would always say admiringly that not only was Alma her very first student but also the very best of all the students she ever had.</p>
+
+              <h5 align="justify">From Chicago to Berlin</h5>
+
+              <p align="justify">Later Alma went on to study in Chicago with the Russian pianistic master, Joseph Lhevinne. Her extraordinary piano ability developing steadily, she soon began to concertize. During one particularly notable summer long tour in the early 1920s, she appeared - under the auspices of the Chautauqua organization - in scores of towns and cities across the country. The artist soon saved enough money to go to the great music center of Berlin. There Alma had the good fortune to be accepted as a pupil of the esteemed pianist, Adele aus der Ohe, who had been for ten years studied with the composer and piano virtuoso, Franz Liszt.</p>
+
+            <p align="justify">Adele aus der Ohe had had the further distinction of performing the Tchaikovsky Piano Concerto under the baton of the composer himself at the opening of New York's Carnegie Hall in May of 1891. Thus a great musical tradition was passed on directly from Liszt and Tchaikovsky to the young Alma Mehus.</p>
+
+            <p align="justify">In the mid-1920s the conductor of the Berlin Philharmonic heard Alma play and quickly invited her to appear with the Philharmonic in the same Tchaikovsky Concerto. The date of Alma's highly successful debut was March 11, 1924. At the time she was the youngest pianist ever to have soloed with this legendary orchestra.</p>
+
+            <h5 align="justify">The Norwegian Heritage</h5>
+
+            <p align="justify">Thus encouraged, Alma made a number of concert tours in Europe, including an engagement with the Oslo Philharmonic, and then performed in New York, Chicago, and many other American cities. Two crowded scrapbooks, filled with glowing reviews, attest to the widespread acclaim she received.</p>
+
+            <p align="justify">Returning to her beloved North Dakota, in 1929 she married a Norwegian-American businessman from the Devils Lake region, Leo Studness. They became the parents of Charles Michael and Anne-Marit, both of whom also studied music and both of whom became strong supporters of the arts. The present writer is a nephew of Alma and Leo, whom he has often visited since childhood.</p>
+
+            <p align="justify">While Alma continued to perform publicly from time to time, she now devoted the major share of her energies to her family as well as to helping develop the cultural life of her community and her state. From a very early age her two children took piano lessons with their mother, and occasionally Alma would also teach other especially promising students gratis on a scholarship basis. While she could never repay her teachers for all that they had done for her, Alma felt she could give to others.</p>
+
+            <h5 align="justify">The Governor's Art Award</h5>
+
+            <p align="justify">Alma helped found the local Community Concert Association, was instrumental in bringing many musicians of national and international fame to her region, and served in the State Art Council. For these and many other achievements Alma Mehus Studness received in 1989 the North Dakota Governor's Award for the Arts, presented every two years by the North Dakota Council on the Arts, to those who had made significant contributions to the cultural life of the state.</p>
+
+            <p align="justify">&quot;The common thread through all of her endeavors,&quot; as the committee nominating Alma Studness wrote, &quot;has been an unflagging pursuit of excellence in the arts.&quot;</p>
+
+            <p align="justify">Alma's sister Belle, who for over half a century had been similarly active in the state capitol of Bismarck, had earlier received the same award. So highly was Belle regarded that shortly after her death in January of 1988, the City Commission renamed the Bismarck concert hall in her honor. It is now officially called the Belle Mehus City Auditorium.</p>
+
+            <h5 align="justify">Anne Studness Bergstom</h5>
+
+            <p align="justify">As Alma's daughter Anne grew up, the youngster continued piano lessons with her mother while at the same time developing her love of singing and of painting. Later studies took Anne to Stephens College in Missouri and the University of Minnesota, then to Columbia University, and eventually to the Mozarteum in Salzburg, Austria. She studied voice with such notable opera singers as Jennie Tourel and Julius Patzak and painting with Oscar Kokoschka, leading Austrian expressionist. Anne's vocal career soon encompassed a New York debut at Carnegie Recital Hall in 1960 as well as performances of the title roles in Gounod's <i>Romeo et Juliette</i> and Douglas Moore's <i>The Ballad of Baby Doe</i>.</p>
+
+            <p align="justify">Anne's burgeoning operatic career notwithstanding, she always felt a longing for her home in North Dakota; and in 1961 she married a young businessman from Devils Lake, William Bergstrom, whom she had known from childhood. They have two children, a son, Renard, and a daughter, Mira Leigh.</p>
+
+            <p align="justify">At the age of 17, Renard entered the U.S. Air Force Academy. Four years of arduous study in Colorado Springs were followed by admission into the highly selective Euro-NATO Joint Jet Pilot Training Program. This training successfully completed - Renard was top student in his class, receiving the prestigious &quot;Commander's Cup&quot; - he served as pilot and flight instructor for the most advanced of supersonic jets, the F-16. His pilot duties took him all over the USA and to many parts of the world, including solo flights across the Atlantic.</p>
+
+            <p align="justify">Renard's mandated military tenure coming to an end, he transferred to the National Guard, returned to Devils Lake, and joined his father's business. He is married to a lovely young woman, Candace Mord, and accomplished painter, from neighboring Minnesota; they have an adorable two-year-old son, William. The little tyke is already demonstrating, it is reported, and artistic flair so prevalent in the family.</p>
+
+            <h5 align="justify">LHJ's &quot;American Heroines&quot;</h5>
+
+            <p align="justify">On Anne's return to Devils Lake in 1961, she soon became very involved in community affairs, most notably in the arts. Along with her mother Alma she founded the [Devils] Lake Region Young People's Music Club to provide performing opportunities for music students. Anne also established the regional Arts and Humanities Council and served on the boards of other local and state cultural organizations. In 1980 she started hosting a weekly radio program, now called &quot;Our Dakota Sketch Book.&quot;</p>
+
+            <p align="justify">So impressive were Anne's tireless efforts that the <i>Ladies Home Journal</i> in its project entitled &quot;Fifty American Heroines&quot; - one chosen from each state - designated this &quot;Cultural Crusader&quot; as one of the outstanding young women of the country.</p>
+
+            <p align="justify">Over the years Anne has continued to work steadily as well at the talent she gave expression to from earliest age, that of painting. In her spacious home on the shore of Devils Lake a few miles from the center of town, Anne has her own art studio. There she regularly spends her mornings at the easel.</p>
+
+            <h5 align="justify">Settler's &amp; Santa Sagas</h5>
+
+            <p align="justify">Of the large collection of works she has produced, two series are of particular interest: &quot;A Settler's Saga: Celebrating 100 Years of Dakota&quot; (with text by Anne and her daughter Mira) and &quot;A Santa Saga.&quot; The latter charmingly depicts Santa in various activities the hectic days just before Christmas; finishing toys, feeding his reindeer, relaxing at the piano, checking his lists. Both series are available in individual booklets.</p>
+
+            <p align="justify">Anne's many achievements have been capped by her being given in 1981 the Governor's Award for the Arts, &quot;presented in recognition of her role in expanding arts awareness and making the arts a vital part of community life.&quot; This is the same award granted to her mother Alma and to her Aunt Belle. A real tribute indeed to this dedicated family!</p>
+
+            <p align="justify">Yet when asked of what accomplishments she is most proud, Anne does not hesitate to say, &quot;My children.. Children are the greatest creations of all, are they not?&quot;</p>
+
+            <h5 align="justify">Mira Leigh Bergstrom</h5>
+
+            <p align="justify">Mira Leigh had the great good fortune to study piano from childhood with her grandmother Alma and painting with her mother. In high school Mira received a Toyota Youth for Understanding Scholarship to spend a summer in Osaka. There in Japan she developed what was to become a deep and abiding interest in the Far East.</p>
+
+            <p align="justify">After graduating from Carleton College with a Phi Beta Kappa key, Mira worked a year as an intern in the Education Department of the Minneapolis Institute of Art. Then in 1989 she became one of 18 persons nationwide selected to the position of a Luce Scholar, named after the founder of Time magazine. As such, Mira spent a richly rewarding year on an internship at the treasure-laden National Palace Museum in Taipei, Taiwan. While there, she pursued intensive study of Chinese language and art.</p>
+
+            <p align="justify">Mira did so well that the museum engaged her to work the next year as an editor of the institution's English-language publications. Now back in the United States she is engaged in the field of international marketing in Washington, DC, where she is happy to be able to utilize her expertise in the Chinese language. Mira's achievements thus far augur very well indeed for the future.</p>
+
+            <p align="justify">Our sincerest admiration and warmest congratulations go to these three generations of remarkable Norwegian-American women - Alma Mehus Studness, Anne-Marit Studness Bergstrom, and Mira Leigh Bergstrom - for their most valuable contributions, not only in the realm of the arts but in numerous other areas as well. Many are the people whose lives have been enriched by the dedicated service of these gifted North Dakota women. </p>
+
+          <p align="justify">&nbsp;</p></td>
+
+        </tr>
+
+      </table>
+
+    <!-- InstanceEndEditable --></td>
+    <td width="2%" valign="top" background="images/bg.gif">&nbsp;</td>
+  </tr>
+  <tr background="images/bg.gif">
+    <td height="13" colspan="3"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+  </tr>
+  <tr background="images/bg.gif">
+    <td height="39" colspan="3"><div align="center">
+      <p><font size="1"> | <a href="home.htm">Home</a> | <a href="artist.htm">The Artist</a> | <a href="paintings.htm"> Paintings</a>  | <a href="publications.htm">Publications</a> | <a href="history.htm"> History</a> | <a href="wearable-art.htm">Wearable Art</a> | <a href="notecards.htm">Notecards</a> | <a href="desktops.htm">Desktops</a>  | <a href="contact.htm">Contact Us</a> |</font></p>
+      </div>      </td>
+  </tr>
+  
+  <tr valign="top" background="images/bg.gif">
+    <td colspan="3"><img src="images/black_line.gif" alt="Black Line" width="100%" height="8"></td>
+  </tr>
+  <tr valign="top" background="images/bg.gif">
+    <td colspan="3"><div align="center">
+        <font size="1" color="#000000"><br>
+&copy; 2004-17 Dakota Drawings, all rights reserved</font></div></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>
