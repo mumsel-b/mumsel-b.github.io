@@ -8,6 +8,24 @@ description: "Books and publications by Anne-Marit Bergstrom and Dakota Drawings
 <div class="pub-list">
 
 <div class="pub-item">
+<img data-full="/images/publications/skat.jpg" src="/images/publications/skat.jpg" alt="Skat!">
+<div class="pub-info">
+
+### Skat! A dog's journey to a tail-wagging life *(2024)*
+
+*by Oslo Norcross*  
+Illustrated by Anne-Marit Bergstrom
+
+Written by Anne-Marit's Grandson, Oslo, this heartwarming intergenerational book tells the story of a stray dog who believed his name was 'Skat,' as that's all he ever heard. One day, a grumpy old man takes him in, and both their lives are transformed forever.
+
+This book is dedicated to Coco's Heart Dog Rescue (CHDR), a nonprofit organization helping animals find loving homes. Since May 2010, CHDR has matched nearly 20,000 dogs, cats, and pocket pets with families. All proceeds from this book are donated to support Coco's Heart Dog Rescue and their ongoing efforts to rescue, rehabilitate, and rehome pets in need.
+
+[About Oslo Norcross →](/about/oslo-norcross/)
+
+</div>
+</div>
+
+<div class="pub-item">
 <img data-full="/images/publications/people_of_the_prairie.jpg" src="/images/publications/thumbs/people_of_the_prairie.jpg" alt="People of the Prairie">
 <div class="pub-info">
 
@@ -162,9 +180,10 @@ Featuring Anne-Marit's oil painting *Light of the World*. Box of 6 greeting card
 Anne-Marit's Santa paintings found their way onto sweatshirts and t-shirts — and found a devoted following. One young fan wore his Santa sweatshirt so faithfully through winter and into spring that when summer made it too warm, his mother ordered the design on t-shirts in every color of the rainbow. He wore them daily and called them his "Santa and Rudolph shirts."
 
 <div class="pub-item" style="max-width:520px;">
-<img src="/images/merchandise/strom-2.jpg" alt="A young fan in his Santa sweatshirt">
+<img data-full="/images/merchandise/strom-2.jpg" src="/images/merchandise/thumbs/strom-2.jpg" alt="A young fan in his Santa sweatshirt">
 <div class="pub-info">
 
+<br>
 Available in sweatshirt or t-shirt (long and short sleeve), featuring Anne-Marit's Santa designs. Contact Anne-Marit for availability.
 
 </div>
